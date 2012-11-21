@@ -22,8 +22,8 @@ These are demos of the included `ViewDeckExample` app.
 
 # Installation
 
-Easy as pie: you just add `IIViewDeckController.h` and `IIViewDeckController.m` to your project.
-Just add IIViewDeckController.m/h into your project.
+- Add `IIViewDeckController.h` and `IIViewDeckController.m` to your project.
+- Add `QuartzCore.framework` to your libaries: Project-> Build Phases-> Link Binary With Libaries. 
 
 # How to use it?
 
@@ -149,6 +149,10 @@ The other mode `IIViewDeckNavigationControllerIntegrated` has different behavoir
 
 But if you push a `IIViewDeckController` onto a navigation controller, the sideviews will nestly themselves _below_ the navigation view. This means that the animations regarding the navigation controller will be applied only to the center view controller and not to the side view controllers. 
 There's currently no way to disable this behavior, but it will be added later.
+
+# Storyboards
+
+It is possible to use `IIViewDeckController` with storyboards with some extra code. You can find an example here: https://github.com/simonrice/ViewDeckStoryboardExample.
 
 # ViewDeckExample
 
